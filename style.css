@@ -3,6 +3,7 @@
 body {
   font-family: "Lato", sans-serif;
   color: #6b1a22;
+  background-color: #fff;
 }
 
 h2 {
@@ -101,7 +102,11 @@ form {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  align-content: center;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
 }
 
 form label {
@@ -112,8 +117,8 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
-  display: flex;
-  
+  background-color: #fff;
+  color: #000;
 }
 
 form button {
