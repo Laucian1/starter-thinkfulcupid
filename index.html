@@ -35,6 +35,42 @@
       <section id="join">
         <img src="images/love.png" alt="ThinkfulCupid - love" />
         <!-- Add join form here -->
+        <form action="join-form.js" method="post">
+          <div>
+            <label for="email">Email:</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="email@example.com"
+            />
+          </div>
+          <div>
+            <label for="password">Create a password</label>
+            <input
+              id="password"
+              type="password"
+              name="password"
+            />
+          </div>
+          <div>
+            <label for="name">Username</label>
+            <input 
+              id="name"
+              type="text"
+              name="username"
+            />
+          </div>
+          <div>
+            <label for="gender">I am a...:</label>
+            <select name="gender" id="gender" size="3">
+              <option value="female">female</option>
+              <option value="male">male</option>
+              <option value="other">other</option>
+            </select>
+          </div>
+          <button type="submit">Join</button>
+        </form>
       </section>
 
       <!-- About -->
