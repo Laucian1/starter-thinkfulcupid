@@ -96,9 +96,12 @@ header nav ul li a:hover {
 }
 
 /* -------  Join Form ------- */
-form {
+form { 
   border: 2px solid #6b1a22;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 form label {
@@ -109,6 +112,8 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+  display: flex;
+  
 }
 
 form button {
@@ -135,5 +140,5 @@ footer p {
 /* -------  Media Query ------- */
 
 @media all and (min-width: 480px) {
-  
+
 }
